@@ -14,7 +14,7 @@ git clone https://github.com/benozzy1/ben-dotfiles.git
 cd ben-dotfiles
 ```
 
-To link the config files, you first have to remove your currently existing ones (MAKE SURE YOU WANT TO DO THIS!!!):
+To link the config files, you first have to remove your currently existing ones (CREATE A BACKUP BEFORE YOU DO THIS!!!):
 ```
 rm ~/.config/bspwm/bspwmrc
 rm ~/.config/kitty/kitty.conf
