@@ -19,7 +19,7 @@ To link the config files, you first have to remove your currently existing ones 
 rm ~/.config/bspwm/bspwmrc
 rm ~/.config/kitty/kitty.conf
 rm ~/.config/picom/picom.conf
-rm ~/.config/sxhkd/sxhkd.conf
+rm ~/.config/sxhkd/sxhkdrc
 ```
 
 To make sure you have the config directories, create them:
