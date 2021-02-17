@@ -1,5 +1,5 @@
 # Ben Dotfiles 
-My personal dotfiles for a custom bspwm setup.
+My personal dotfiles for a custom bspwm linux setup. (USE AT YOUR OWN RISK!)
 
 Dotfiles present in this repo:
   * bspwm
