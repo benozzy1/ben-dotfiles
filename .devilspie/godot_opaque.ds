@@ -1,0 +1,10 @@
+; generated_rule godot_opaque
+( if 
+( begin 
+( is ( window_class ) "Godot" )
+) 
+( begin 
+( opacity 100 )
+( println "match" )
+)
+)

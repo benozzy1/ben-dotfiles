@@ -28,7 +28,7 @@ secondary = #e60053
 alert = #bd2c40
 
 [bar/ben-bar]
-monitor = ${env:MONITOR:DP-0}
+;monitor = ${env:MONITOR:DP-0}
 width = 100%
 height = 32
 ;offset-x = 1%
