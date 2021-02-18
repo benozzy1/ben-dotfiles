@@ -108,7 +108,7 @@ super + alt + shift + {Left,Down,Up,Right}
 #	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 #
-# media keys
+# media controls
 #
 XF86AudioRaiseVolume
 	pactl set-sink-volume 0 +5%
@@ -118,3 +118,13 @@ XF86AudioLowerVolume
 
 XF86AudioMute
     pactl set-sink-mute 0 toggle
+
+#
+# backlight controls
+#
+
+XF86MonBrightnessDown
+	sudo /usr/local/bin/configure_brightness -10
+
+XF86MonBrightnessUp
+	sudo /usr/local/bin/configure-brightness +10
