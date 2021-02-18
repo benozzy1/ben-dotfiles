@@ -1,0 +1,10 @@
+; generated_rule transparent_windows
+( if 
+( begin 
+( not ( is ( window_class ) "kitty" ) )
+) 
+( begin 
+( opacity 75 )
+( println "match" )
+)
+)
