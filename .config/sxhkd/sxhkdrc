@@ -114,7 +114,7 @@ XF86AudioRaiseVolume
 	pactl set-sink-volume 0 +5%
 
 XF86AudioLowerVolume
-	pactl set-sink-volume 0 -- -5%
+	pactl set-sink-volume 0 -5%
 
 XF86AudioMute
     pactl set-sink-mute 0 toggle
@@ -124,7 +124,7 @@ XF86AudioMute
 #
 
 XF86MonBrightnessDown
-	sudo /usr/local/bin/configure_brightness -10
+	xbacklight -10
 
 XF86MonBrightnessUp
-	sudo /usr/local/bin/configure-brightness +10
+	xbacklight +10
